@@ -1,0 +1,181 @@
+/*
+Theme Name: Business Pomegranate
+Theme URI: http://mobifreaks.com/mobile templates/
+Author: Munawar Ahmed
+Author URI: http://mobifreaks.com/
+Customize by : Vulchi Vijay
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+h1,h2,h3,h4,h5,h6{font-weight:normal;color:#fff;}
+h1,h2,h3,h4,h5,h6,figcaption{text-transform:capitalize;}
+
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+.pos-rel{position:relative;}
+.clearfix{clear:both;}
+a{text-decoration:none;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;height:0;}
+audio,video{max-width:100%;}
+[hidden]{display:none;}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+html,button,input,select,textarea{font-family:sans-serif;}
+body{font-family:Arial, Helvetica, sans-serif;background:#f9f9f9;margin:0;}
+a{color:#f1f1f1;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{color:#b33100;outline:0;}
+h1{font-size:2.2em;margin:0 0 0.2em 0;}h1 a{color:#006f9a;}
+h2{font-size:1.8em;margin:0 0 0.2em 0;}
+h3{font-size:1.6em;margin:0 0 0.5em 0;}
+h4{font-size:1.4em;margin:0 0 0.6em 0;}
+h5{font-size:1.3em;margin:0 0 0.7em 0;}
+h6{font-size:1.2em;margin:0 0 1.3em 0;}
+abbr[title]{border-bottom:1px dotted;}
+b,strong{font-weight:bold;}
+blockquote{margin:1em 40px;}
+dfn{font-style:italic;}
+mark{background:#ff0;color:#000;}
+p,pre{margin:0 0 1em 0;line-height:1.8em;color:#fff;}
+pre,code,kbd,samp{font-family:monospace, serif;_font-family:'courier new',monospace;font-size:1em;}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+q{quotes:none;}
+q:before,q:after{content:'';content:none;}
+small{font-size:75%;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+address{margin-bottom:10px;}
+ol,ul,dl, li {padding:0 0 0 10px;margin:0 0 10px; list-style: none; color: #fff;}
+nav ul,nav ol{list-style:none;list-style-image:none;margin:0 0 20px;padding:0;}
+article pre{padding:10px;background:rgba(255, 255, 255, 0.1);border:1px solid #ddd;box-shadow:inset 0 0 10px #eeeeee;-moz-box-shadow:inset 0 0 10px #eeeeee;-webkit-box-shadow:inset 0 0 10px #eeeeee;font-size:0.8em;}
+article ul ul,article ol ul,article dl ul,article ul ol,article ol ol,article dl ol{margin:0;}
+article nav ul li,article nav ol li,article ol li,article ul li,article dl li,article nav ul dt,article nav ol dt,article ol dt,article ul dt,article dl dt,article nav ul dd,article nav ol dd,article ol dd,article ul dd,article dl dd{line-height:1.8em;}
+article dt{font-weight:bold;}
+article dd{margin:0 0 5px 40px;}
+img{border:0;-ms-interpolation-mode:bicubic; max-width:100%;}
+svg:not(:root){overflow:hidden;}
+figure{margin:0;}
+form{margin:0;}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}
+legend{border:0;padding:0;white-space:normal;*margin-left:-7px;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible;}
+button[disabled],input[disabled]{cursor:default;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+textarea{overflow:auto;vertical-align:top;}
+table{border-collapse:collapse;border-spacing:0;}form label{
+	font-size:12px; color:#f1f1f1;
+	margin-bottom: 0.4em;
+}
+form.contact-form{margin-bottom:20px;}
+form input[type=text],
+form input[type=password],textarea{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+}
+form input[type="radio"]{
+	position:relative;
+	top:1px;
+}
+form div{
+	margin:0 0 0.8em 0;
+}
+form textarea{
+	height:80px;
+}
+label{display:block;}
+form label span.red{
+	color:#ff0000;
+}
+form input[type=submit]{
+	cursor: pointer;	
+}
+form input[type=submit],
+form input[type=text],
+form input[type=password],
+form textarea{
+	padding:5px;
+}
+form input[type=text],
+form input[type=password],
+form textarea,
+form input[type=submit]{
+	background:#fafafa;
+	border:1px solid #ddd;
+	width:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+form input:focus,
+form textarea:focus{
+	outline:1px solid #00baff;
+}
+form input[type=submit]{
+	width:100%;
+	background: #f9fcf7;
+	background: -moz-linear-gradient(top,  #f9fcf7 0%, #eee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9fcf7), color-stop(100%,#eee));
+	background: -webkit-linear-gradient(top,  #f9fcf7 0%,#eee 100%);
+	background: -o-linear-gradient(top,  #f9fcf7 0%,#eee 100%);
+	background: -ms-linear-gradient(top,  #f9fcf7 0%,#eee 100%);
+	background: linear-gradient(to bottom,  #f9fcf7 0%,#eee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#eee',GradientType=0 );
+	color:#565656;
+	font-weight:bold;
+	font-size:0.8em;
+	padding:10px;
+}
+.inline input,.inline label{display:inline-block !important;}
+/* typography */
+
+p{font-size:0.9em; line-height:1.6em; text-align: justify;}
+blockquote{padding-left:40px;min-height:30px;margin:5px 0 30px 0;font-size:0.8em;line-height:1.6em;color:#767676;}
+
+/* ===== */
+
+body {
+	background-color: #f4f4f4;
+}
+
+div.header {
+	background-color: #f0f0f0;
+	padding: 10px;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: calc(100% - 20px);
+	text-align: center;
+	border-bottom: 2px solid #ddd;
+}
+
+div.header input {
+	width: calc(100% - 30px);
+	padding: 5px;
+	border: 1px solid #ccc;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div#searchresults div {
+	padding: 5px 10px;
+
+	border-bottom: 1px solid #ddd;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4f4f4+0,ffffff+14,ffffff+86,f2f2f2+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,ffffff+14,ffffff+86,f7f7f7+100 */
+background: #f7f7f7; /* Old browsers */
+background: -moz-linear-gradient(top, #f7f7f7 0%, #ffffff 14%, #ffffff 86%, #f7f7f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f7f7f7 0%,#ffffff 14%,#ffffff 86%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f7f7f7 0%,#ffffff 14%,#ffffff 86%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+
+}

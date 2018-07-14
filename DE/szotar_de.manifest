@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+# Version 0.0.12
+
+NETWORK: *
+
+CACHE:
+index.html
+../logo.png
+../style.css
+data/de.js
+../search.js
+
+FALLBACK:
