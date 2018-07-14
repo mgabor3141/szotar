@@ -13,10 +13,15 @@ function removeAccents(str) {
 }
 
 function resultItem(phrase, key, values) {
-	return "<div>" +
-		"<b>" + key.substr(0, phrase.length) + "</b>" + key.substr(phrase.length) + "<br/>" +
-		values.join("; ") + "</div>"
+	var e = document.createElement("div");
+	e.appendChild(document.createElement("b").appendChild(document.createTextNode(key.substr(0, phrase.length))))
+	e.appendChild(document.createTextNode(key.substr(phrase.length)))
+	e.appendChild(document.createElement("br"))
+	e.appendChild(document.createTextNode(values.join("; ")))
+    return e
 }
+
+keys = Object.keys(lang)
 
 function search(event) {
 	if (event.value.length == 0) {
@@ -26,16 +31,19 @@ function search(event) {
 
 	results = []
 
-	keys = Object.keys(lang)
+	strippedphrase = removeAccents(event.value).toLowerCase()
+
 	for (i = 0; i < keys.length; ++i) {
 		if (results.length >= 100) break;
-		if (removeAccents(keys[i]).toLowerCase().startsWith(removeAccents(event.value).toLowerCase()))
+		if (removeAccents(keys[i].substr(0, strippedphrase.length)).toLowerCase() == strippedphrase)
 			results.push(keys[i]);
 	}
 
-	html = ""
+	document.getElementById("searchresults").innerHTML = ""
+	var c = document.createDocumentFragment();
+
 	for (i = 0; i < results.length; ++i) {
-		html += resultItem(event.value, results[i], lang[results[i]]) + "\n";
+		c.appendChild(resultItem(event.value, results[i], lang[results[i]]));
 	}
-	document.getElementById("searchresults").innerHTML = html;
+	document.getElementById("searchresults").appendChild(c);
 }
