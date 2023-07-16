@@ -1,7 +1,7 @@
 # szotar
 A simple yet fast dictionary app for mobile browsers
 
-Available at:
+### Available here:
 
-English ⇔ Hungarian: https://mgabor3141.github.io/szotar/EN/
-Gergman ⇔ Hungarian: https://mgabor3141.github.io/szotar/DE/
+English ⇔ Hungarian: https://mgabor3141.github.io/szotar/EN/<br/>
+German ⇔ Hungarian: https://mgabor3141.github.io/szotar/DE/
