@@ -1,5 +1,5 @@
 # szotar
-A simple yet fast dictionary app for mobile browsers
+A simple yet fast dictionary app for mobile browsers. Works offline when added to home screen.
 
 ### Available here:
 
